@@ -1,4 +1,5 @@
-/*Author: Teja Sasank Gorthi*/
+/* Author : Teja Sasank Gorthi
+   Email  : jet.sasank@gmail.com */
 #include <linux/init.h>
 #include <linux/module.h>
 #include <linux/kernel.h>
