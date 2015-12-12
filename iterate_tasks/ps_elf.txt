@@ -1,0 +1,155 @@
+F S UID        PID  PPID  C PRI  NI ADDR SZ WCHAN    RSS PSR STIME TTY          TIME CMD
+4 S root         1     0  0  80   0 -  5958 ep_pol  3940   0 03:12 ?        00:00:01 /sbin/init splash
+1 S root         2     0  0  80   0 -     0 kthrea     0   0 03:12 ?        00:00:00 [kthreadd]
+1 S root         3     2  0  80   0 -     0 smpboo     0   0 03:12 ?        00:00:00 [ksoftirqd/0]
+1 S root         5     2  0  60 -20 -     0 worker     0   0 03:12 ?        00:00:00 [kworker/0:0H]
+1 S root         7     2  0  80   0 -     0 rcu_gp     0   0 03:12 ?        00:00:00 [rcu_sched]
+1 S root         8     2  0  80   0 -     0 rcu_gp     0   0 03:12 ?        00:00:00 [rcu_bh]
+1 S root         9     2  0 -40   - -     0 smpboo     0   0 03:12 ?        00:00:00 [migration/0]
+5 S root        10     2  0 -40   - -     0 smpboo     0   0 03:12 ?        00:00:00 [watchdog/0]
+1 S root        11     2  0  60 -20 -     0 rescue     0   0 03:12 ?        00:00:00 [khelper]
+5 S root        12     2  0  80   0 -     0 devtmp     0   0 03:12 ?        00:00:00 [kdevtmpfs]
+1 S root        13     2  0  60 -20 -     0 rescue     0   0 03:12 ?        00:00:00 [netns]
+1 S root        14     2  0  60 -20 -     0 rescue     0   0 03:12 ?        00:00:00 [perf]
+1 S root        15     2  0  80   0 -     0 watchd     0   0 03:12 ?        00:00:00 [khungtaskd]
+1 S root        16     2  0  60 -20 -     0 rescue     0   0 03:12 ?        00:00:00 [writeback]
+1 S root        17     2  0  85   5 -     0 ksm_sc     0   0 03:12 ?        00:00:00 [ksmd]
+1 S root        18     2  0  99  19 -     0 khugep     0   0 03:12 ?        00:00:00 [khugepaged]
+1 S root        19     2  0  60 -20 -     0 rescue     0   0 03:12 ?        00:00:00 [crypto]
+1 S root        20     2  0  60 -20 -     0 rescue     0   0 03:12 ?        00:00:00 [kintegrityd]
+1 S root        21     2  0  60 -20 -     0 rescue     0   0 03:12 ?        00:00:00 [bioset]
+1 S root        22     2  0  60 -20 -     0 rescue     0   0 03:12 ?        00:00:00 [kblockd]
+1 S root        23     2  0  60 -20 -     0 rescue     0   0 03:12 ?        00:00:00 [ata_sff]
+1 S root        24     2  0  60 -20 -     0 rescue     0   0 03:12 ?        00:00:00 [md]
+1 S root        25     2  0  60 -20 -     0 rescue     0   0 03:12 ?        00:00:00 [devfreq_wq]
+1 S root        29     2  0  80   0 -     0 kswapd     0   0 03:12 ?        00:00:00 [kswapd0]
+1 S root        30     2  0  80   0 -     0 fsnoti     0   0 03:12 ?        00:00:00 [fsnotify_mark]
+1 S root        31     2  0  80   0 -     0 ecrypt     0   0 03:12 ?        00:00:00 [ecryptfs-kthrea]
+1 S root        42     2  0  60 -20 -     0 rescue     0   0 03:12 ?        00:00:00 [kthrotld]
+1 S root        43     2  0  60 -20 -     0 rescue     0   0 03:12 ?        00:00:00 [acpi_thermal_pm]
+1 S root        45     2  0  80   0 -     0 scsi_e     0   0 03:12 ?        00:00:00 [scsi_eh_0]
+1 S root        46     2  0  60 -20 -     0 rescue     0   0 03:12 ?        00:00:00 [scsi_tmf_0]
+1 S root        47     2  0  80   0 -     0 scsi_e     0   0 03:12 ?        00:00:00 [scsi_eh_1]
+1 S root        48     2  0  60 -20 -     0 rescue     0   0 03:12 ?        00:00:00 [scsi_tmf_1]
+1 S root        50     2  0  60 -20 -     0 rescue     0   0 03:12 ?        00:00:00 [ipv6_addrconf]
+1 S root        70     2  0  60 -20 -     0 rescue     0   0 03:12 ?        00:00:00 [deferwq]
+1 S root        71     2  0  60 -20 -     0 rescue     0   0 03:12 ?        00:00:00 [charger_manager]
+1 S root       113     2  0  60 -20 -     0 rescue     0   0 03:12 ?        00:00:00 [kpsmoused]
+1 S root       115     2  0  80   0 -     0 scsi_e     0   0 03:12 ?        00:00:00 [scsi_eh_2]
+1 S root       116     2  0  60 -20 -     0 rescue     0   0 03:12 ?        00:00:00 [scsi_tmf_2]
+1 S root       117     2  0  60 -20 -     0 worker     0   0 03:12 ?        00:00:00 [kworker/0:1H]
+1 S root       143     2  0  80   0 -     0 kjourn     0   0 03:12 ?        00:00:00 [jbd2/sda1-8]
+1 S root       145     2  0  60 -20 -     0 rescue     0   0 03:12 ?        00:00:00 [ext4-rsv-conver]
+1 S root       178     2  0  80   0 -     0 kaudit     0   0 03:12 ?        00:00:00 [kauditd]
+4 S root       200     1  0  80   0 -  2173 ep_pol  4196   0 03:12 ?        00:00:00 /lib/systemd/systemd-journald
+4 S root       209     1  0  80   0 -  3485 ep_pol  2672   0 03:12 ?        00:00:00 /lib/systemd/systemd-udevd
+4 S systemd+   327     1  0  80   0 -  3146 ep_pol  1940   0 03:12 ?        00:00:00 /lib/systemd/systemd-timesyncd
+1 S root       450     2  0  60 -20 -     0 rescue     0   0 03:12 ?        00:00:00 [iprt-VBoxWQueue]
+4 S message+   498     1  0  80   0 -  1737 ep_pol  4028   0 03:12 ?        00:00:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+4 S avahi      537     1  0  80   0 -  1323 poll_s  2452   0 03:12 ?        00:00:00 avahi-daemon: running [jet-VirtualBox.local]
+4 S root       538     1  0  80   0 - 10286 poll_s 10028   0 03:12 ?        00:00:00 /usr/lib/accountsservice/accounts-daemon
+1 S avahi      544   537  0  80   0 -  1323 unix_s    36   0 03:12 ?        00:00:00 avahi-daemon: chroot helper
+4 S whoopsie   557     1  0  80   0 - 14619 poll_s 10892   0 03:12 ?        00:00:00 /usr/bin/whoopsie -f
+4 S root       559     1  0  80   0 -  1396 hrtime  1860   0 03:12 ?        00:00:00 /usr/sbin/cron -f
+4 S root       561     1  0  80   0 - 10318 poll_s  4328   0 03:12 ?        00:00:00 /usr/sbin/ModemManager
+4 S root       564     1  0  80   0 - 19556 poll_s 10924   0 03:12 ?        00:00:00 /usr/sbin/NetworkManager --no-daemon
+4 S syslog     577     1  0  80   0 -  7680 poll_s  4216   0 03:12 ?        00:00:00 /usr/sbin/rsyslogd -n
+4 S root       579     1  0  80   0 -  1178 poll_s  2100   0 03:12 ?        00:00:00 /sbin/cgmanager -m name=systemd
+4 S root       581     1  0  80   0 -  1031 ep_pol  2604   0 03:12 ?        00:00:00 /lib/systemd/systemd-logind
+4 S root       606     1  0  80   0 - 10313 poll_s  9636   0 03:12 ?        00:00:00 /usr/lib/policykit-1/polkitd --no-debug
+4 S root       608     1  0  80   0 -  9257 poll_s  5348   0 03:12 ?        00:00:00 /usr/sbin/cups-browsed
+1 S kernoops   615     1  0  80   0 -  2212 poll_s  2208   0 03:12 ?        00:00:00 /usr/sbin/kerneloops
+4 S root       620     1  0  80   0 -  2433 poll_s  2692   0 03:12 ?        00:00:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+4 S root       638     1  0  80   0 -  9394 poll_s  5544   0 03:12 ?        00:00:00 /usr/sbin/lightdm
+4 S root       655   638  1  80   0 - 44029 poll_s 56832   0 03:12 tty7     00:05:09 /usr/bin/X -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+4 S nobody     657   564  0  80   0 -  2120 poll_s  2260   0 03:12 ?        00:00:00 /usr/sbin/dnsmasq --no-resolv --keep-in-foreground --no-hosts --bind-interfaces --pid-file=/run/sendsigs.omit.d/network-manager.dnsmasq.pid --listen-address=127.0.1.1 --conf-file=/var/run/NetworkManager/dnsmasq.conf --cache-size=0 --proxy-dnssec --enable-dbus=org.freedesktop.NetworkManager.dnsmasq --conf-dir=/etc/NetworkManager/dnsmasq.d
+4 S root       858     1  0  80   0 -  1186 poll_s  1556   0 03:12 tty1     00:00:00 /sbin/agetty --noclear tty1 linux
+4 S root       925   638  0  80   0 -  6974 wait    4124   0 03:12 ?        00:00:00 lightdm --session-child 12 19
+4 S rtkit      984     1  0  81   1 -  5790 poll_s  2208   0 03:12 ?        00:00:00 /usr/lib/rtkit/rtkit-daemon
+4 S root       999     1  0  80   0 - 18052 poll_s 10588   0 03:12 ?        00:00:00 /usr/lib/upower/upowerd
+4 S colord    1013     1  0  80   0 - 10888 poll_s  9980   0 03:12 ?        00:00:00 /usr/lib/colord/colord
+4 S jet       1033     1  0  80   0 -  1580 ep_pol  2828   0 03:12 ?        00:00:00 /lib/systemd/systemd --user
+5 S jet       1034  1033  0  80   0 -  1845 sigtim   760   0 03:12 ?        00:00:00 (sd-pam)         
+1 S jet       1045     1  0  80   0 - 12759 poll_s  7004   0 03:12 ?        00:00:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+4 S jet       1047   925  0  80   0 -  1980 poll_s  3424   0 03:12 ?        00:00:00 /sbin/upstart --user
+1 S jet       1136  1047  0  80   0 -  1703 poll_s  1864   0 03:12 ?        00:00:00 upstart-udev-bridge --daemon --user
+1 S jet       1142  1047  0  80   0 -  1719 ep_pol  3684   0 03:12 ?        00:00:02 dbus-daemon --fork --session --address=unix:abstract=/tmp/dbus-aULwFGyWl0
+0 S jet       1154  1047  0  80   0 - 11388 poll_s  4268   0 03:12 ?        00:00:00 /usr/lib/i386-linux-gnu/hud/window-stack-bridge
+0 S jet       1170  1047  0  80   0 - 15398 poll_s  4228   0 03:12 ?        00:00:00 /usr/lib/gvfs/gvfsd
+0 S jet       1174  1047  0  80   0 - 17889 poll_s 12028   0 03:12 ?        00:00:01 /usr/lib/i386-linux-gnu/bamf/bamfdaemon
+0 S jet       1186  1047  0  80   0 - 13236 futex_  3884   0 03:12 ?        00:00:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+0 S jet       1205  1047  0  80   0 - 11541 poll_s  5144   0 03:12 ?        00:00:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+0 S jet       1233  1205  0  80   0 -  1514 ep_pol  3224   0 03:12 ?        00:00:00 /usr/bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
+0 S jet       1237  1047  0  80   0 -  7292 poll_s  3632   0 03:12 ?        00:00:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+1 S jet       1246  1047  0  80   0 - 11895 poll_s  5920   0 03:12 ?        00:00:04 /usr/bin/ibus-daemon --daemonize --xim
+0 S jet       1263  1246  0  80   0 -  9663 poll_s  5412   0 03:12 ?        00:00:00 /usr/lib/ibus/ibus-dconf
+0 S jet       1265  1246  0  80   0 - 23507 poll_s  9688   0 03:12 ?        00:00:01 /usr/lib/ibus/ibus-ui-gtk3
+0 S jet       1267  1047  0  80   0 - 13208 poll_s  5024   0 03:12 ?        00:00:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+1 S jet       1287  1047  0  80   0 -  1718 poll_s  1516   0 03:12 ?        00:00:00 upstart-dbus-bridge --daemon --session --user --bus-name session
+1 S jet       1290  1047  0  80   0 -  1718 poll_s  1184   0 03:12 ?        00:00:00 upstart-dbus-bridge --daemon --system --user --bus-name system
+1 S jet       1291  1047  0  80   0 -  1793 poll_s  1360   0 03:12 ?        00:00:00 upstart-file-bridge --daemon --user
+0 S jet       1292  1047  0  80   0 - 32151 poll_s 15956   0 03:12 ?        00:00:03 /usr/lib/i386-linux-gnu/hud/hud-service
+0 S jet       1294  1047  0  80   0 - 64097 poll_s 14696   0 03:12 ?        00:00:00 /usr/lib/unity-settings-daemon/unity-settings-daemon
+0 R jet       1300  1047 81  80   0 - 88483 -      166908  0 03:12 ?        04:43:33 compiz
+0 S jet       1303  1047  0  80   0 - 20754 poll_s 10128   0 03:12 ?        00:00:00 gnome-session --session=ubuntu
+0 S jet       1307  1047  0  80   0 - 25977 poll_s 17828   0 03:12 ?        00:00:03 /usr/lib/unity/unity-panel-service
+0 S jet       1322  1047  0  80   0 -  6315 poll_s  3780   0 03:12 ?        00:00:00 /usr/lib/dconf/dconf-service
+0 S jet       1323  1246  0  80   0 -  7594 poll_s  5212   0 03:12 ?        00:00:01 /usr/lib/ibus/ibus-engine-simple
+0 S jet       1395  1047  0  80   0 - 12553 poll_s  5996   0 03:13 ?        00:00:00 /usr/lib/i386-linux-gnu/indicator-messages/indicator-messages-service
+0 S jet       1396  1047  0  80   0 - 11696 poll_s  5080   0 03:13 ?        00:00:00 /usr/lib/i386-linux-gnu/indicator-bluetooth/indicator-bluetooth-service
+0 S jet       1399  1047  0  80   0 - 15914 poll_s  5988   0 03:13 ?        00:00:00 /usr/lib/i386-linux-gnu/indicator-power/indicator-power-service
+0 S jet       1401  1047  0  80   0 - 33363 poll_s  6308   0 03:13 ?        00:00:00 /usr/lib/i386-linux-gnu/indicator-datetime/indicator-datetime-service
+0 S jet       1404  1047  0  80   0 - 29703 poll_s  8816   0 03:13 ?        00:00:00 /usr/lib/i386-linux-gnu/indicator-keyboard/indicator-keyboard-service --use-gtk
+0 S jet       1407  1047  0  80   0 - 32061 poll_s  8228   0 03:13 ?        00:00:00 /usr/lib/i386-linux-gnu/indicator-sound/indicator-sound-service
+0 S jet       1411  1047  0  80   0 - 18575 poll_s  7756   0 03:13 ?        00:00:00 /usr/lib/i386-linux-gnu/indicator-printers/indicator-printers-service
+0 S jet       1414  1047  0  80   0 - 17939 poll_s  5988   0 03:13 ?        00:00:00 /usr/lib/i386-linux-gnu/indicator-session/indicator-session-service
+0 S jet       1428  1047  0  80   0 - 16181 poll_s  5368   0 03:13 ?        00:00:00 /usr/lib/i386-linux-gnu/indicator-application/indicator-application-service
+0 S jet       1449  1047  0  80   0 - 34687 poll_s  6380   0 03:13 ?        00:00:00 /usr/lib/evolution/evolution-source-registry
+1 S jet       1452  1047  0  69 -11 - 41527 poll_s  3012   0 03:13 ?        00:00:00 /usr/bin/pulseaudio --start --log-target=syslog
+0 S jet       1491  1303  0  80   0 - 15214 poll_s  6544   0 03:13 ?        00:00:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+0 S jet       1492  1303  0  80   0 - 28853 poll_s  8816   0 03:13 ?        00:00:00 nm-applet
+0 S jet       1494  1303  0  80   0 - 19271 poll_s  6616   0 03:13 ?        00:00:00 /usr/lib/unity-settings-daemon/unity-fallback-mount-helper
+0 S jet       1496  1303  0  80   0 - 50944 poll_s 38228   0 03:13 ?        00:00:09 nautilus -n
+0 S jet       1502  1047  0  80   0 - 40612 poll_s 24764   0 03:13 ?        00:00:00 /usr/lib/evolution/evolution-calendar-factory
+0 S jet       1518  1047  0  80   0 - 10234 poll_s  6572   0 03:13 ?        00:00:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+4 S root      1523     1  0  80   0 - 14130 poll_s  7772   0 03:13 ?        00:00:00 /usr/lib/udisks2/udisksd --no-debug
+0 S jet       1531  1047  0  80   0 - 19580 poll_s  9420   0 03:13 ?        00:00:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+0 S jet       1539  1047  0  80   0 -  8969 poll_s  3920   0 03:13 ?        00:00:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+0 S jet       1541  1047  0  80   0 -  3028 poll_s  4708   0 03:13 ?        00:00:00 /usr/lib/i386-linux-gnu/gconf/gconfd-2
+0 S jet       1546  1047  0  80   0 -  9269 poll_s  6120   0 03:13 ?        00:00:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+0 S jet       1558  1502  0  80   0 - 33758 poll_s  6456   0 03:13 ?        00:00:00 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory contacts --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx1502x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/1502/2
+0 S jet       1568  1502  0  80   0 - 31367 poll_s  6552   0 03:13 ?        00:00:00 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx1502x3 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/1502/3
+0 S jet       1571  1047  0  80   0 - 29480 poll_s  8808   0 03:13 ?        00:00:00 /usr/lib/evolution/evolution-addressbook-factory
+0 S jet       1590  1047  0  80   0 - 14009 poll_s  6976   0 03:13 ?        00:00:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.4 /org/gtk/gvfs/exec_spaw/0
+0 S jet       1593  1571  0  80   0 - 33298 poll_s  8980   0 03:13 ?        00:00:00 /usr/lib/evolution/evolution-addressbook-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.AddressBookx1571x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/AddressBook/1571/2
+0 S jet       1618  1047  0  80   0 -  6963 poll_s  4164   0 03:13 ?        00:00:00 /usr/lib/gvfs/gvfsd-metadata
+0 S jet       1622  1047  0  80   0 - 11302 poll_s  7256   0 03:13 ?        00:00:00 /usr/lib/gvfs/gvfsd-burn --spawner :1.4 /org/gtk/gvfs/exec_spaw/1
+0 S jet       1646  1303  0  80   0 - 25629 poll_s  9020   0 03:13 ?        00:00:00 telepathy-indicator
+0 S jet       1655  1047  0  80   0 - 20873 poll_s 10572   0 03:13 ?        00:00:00 /usr/lib/telepathy/mission-control-5
+0 S jet       1669  1303  0  80   0 - 17416 poll_s  9352   0 03:13 ?        00:00:00 zeitgeist-datahub
+0 S jet       1675  1047  0  80   0 - 13627 poll_s  7904   0 03:13 ?        00:00:00 /usr/bin/zeitgeist-daemon
+0 S jet       1683  1047  0  80   0 - 17914 poll_s 12752   0 03:13 ?        00:00:00 /usr/lib/i386-linux-gnu/zeitgeist-fts
+0 S jet       1730  1303  0  80   0 - 27506 poll_s 17748   0 03:14 ?        00:00:00 update-notifier
+0 S jet       1754  1047  0  90  10 - 39935 poll_s 31316   0 03:14 ?        00:00:05 /usr/bin/python3 /usr/bin/update-manager --no-update --no-focus-on-map
+0 S jet       1786  1303  0  80   0 - 18356 poll_s  6172   0 03:15 ?        00:00:00 /usr/lib/i386-linux-gnu/deja-dup/deja-dup-monitor
+0 S jet       1808  1047  0  80   0 - 24018 poll_s 12760   0 03:18 ?        00:00:02 /usr/lib/i386-linux-gnu/notify-osd
+0 S jet       2216  1047  0  80   0 - 28776 poll_s 17248   0 04:46 ?        00:00:00 /usr/lib/i386-linux-gnu/unity-scope-home/unity-scope-home
+0 S jet       2229  1047  0  80   0 - 26809 poll_s 17164   0 04:46 ?        00:00:00 /usr/bin/unity-scope-loader applications/applications.scope applications/scopes.scope commands.scope
+0 S jet       2230  1047  0  80   0 - 28295 poll_s 11220   0 04:46 ?        00:00:00 /usr/lib/i386-linux-gnu/unity-lens-files/unity-files-daemon
+0 S jet       2272  1047  0  80   0 - 29630 poll_s 26484   0 04:46 ?        00:00:05 /usr/lib/gnome-terminal/gnome-terminal-server
+0 S jet       2278  2272  0  80   0 -   626 unix_s  1612   0 04:46 ?        00:00:00 gnome-pty-helper
+0 S jet       2280  2272  0  80   0 -  1800 wait_w  4412   0 04:46 pts/2    00:00:00 bash
+4 S root      2942   564  0  80   0 -  2319 poll_s  6064   0 07:24 ?        00:00:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /run/sendsigs.omit.d/network-manager.dhclient-enp0s3.pid -lf /var/lib/NetworkManager/dhclient-9be33f52-c886-4125-a894-a33ee8f434a9-enp0s3.lease -cf /var/lib/NetworkManager/dhclient-enp0s3.conf enp0s3
+4 S root      3392     1  0  80   0 -  3312 ep_pol  6020   0 07:45 ?        00:00:00 /usr/sbin/cupsd -l
+1 S root      3394     2  0  80   0 -     0 worker     0   0 07:45 ?        00:00:00 [kworker/0:2]
+4 S lp        3396  3392  0  80   0 -  2572 pipe_w  4696   0 07:45 ?        00:00:00 /usr/lib/cups/notifier/dbus dbus:// 
+4 S lp        3397  3392  0  80   0 -  2572 pipe_w  4836   0 07:45 ?        00:00:00 /usr/lib/cups/notifier/dbus dbus:// 
+1 S root      3534     2  0  80   0 -     0 worker     0   0 08:13 ?        00:00:00 [kworker/u2:1]
+1 S root      5412     2  0  80   0 -     0 worker     0   0 08:31 ?        00:00:00 [kworker/0:1]
+4 S uuidd     5469     1  0  80   0 -  1531 skb_re  1168   0 08:32 ?        00:00:00 /usr/sbin/uuidd --socket-activation
+0 S jet       5474  1047  0  80   0 - 17966 poll_s 12644   0 08:32 ?        00:00:00 /usr/lib/i386-linux-gnu/unity-lens-music/unity-music-daemon
+0 S jet       5523  2272  0  80   0 -  1794 wait    4916   0 08:32 pts/11   00:00:00 bash
+0 S jet       5550  1047  0  80   0 - 27619 poll_s 15404   0 08:32 ?        00:00:00 /usr/lib/gvfs/gvfsd-http --spawner :1.4 /org/gtk/gvfs/exec_spaw/3
+1 S root      5978     2  0  80   0 -     0 worker     0   0 08:38 ?        00:00:00 [kworker/u2:2]
+1 S root      6013     2  0  80   0 -     0 worker     0   0 08:58 ?        00:00:00 [kworker/0:0]
+0 R jet       6348  5523  0  80   0 -  1330 -       2356   0 09:01 pts/11   00:00:00 ps -elF
